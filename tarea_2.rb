@@ -20,9 +20,7 @@
 
 # El objetivo en síntesis no es almacenar cada alien, sino cuántos hay en total.
 # Para ello, se almacena en un array cuántos aliens hay de cada edad, para luego
-# calcular cuántos hay al final del día a consultar.
-# Además, por cada alien en etapa de reproducción, se agregan los aliens en estado
-# de reproducción.
+# sumar cuántos hay al final del día a consultar.
 
 class Alien
   BORN = 6 # Conteo desde el día 7 hacia atrás para aliens adultos.
